@@ -1,3 +1,4 @@
+import turtle
 from flask import Flask
 
 app = Flask(__name__)  
@@ -13,4 +14,4 @@ def greet(name):
     
 #これより下には何もかかない
 if __name__== '__main__':
-  app.run()
+  app.run(debug=True)
