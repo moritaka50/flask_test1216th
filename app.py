@@ -11,6 +11,13 @@ def Hello_world():
 def greet(name):
     return name + 'さん、こんばんわ！' 
     #[RETUN　文字列]の形にする必要がある
+
+#テンプレートを使う
+@app.route('/test')
+def test():
+    return render_template('index.html')
+    
+
     
 #これより下には何もかかない
 if __name__== '__main__':
