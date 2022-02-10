@@ -1,8 +1,8 @@
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__)  
 
-@app.route("/")
+@app.route("/HelloWorld") #URLをきめているもの
 def Hello_world():
     return "<p>Hello, World!</p>"
 
