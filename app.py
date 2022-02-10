@@ -9,7 +9,8 @@ def Hello_world():
 @app.route('/user/<name>')
 def greet(name):
     return name + 'さん、こんばんわ！' 
-
+    #[RETUN　文字列]の形にする必要がある
+    
 #これより下には何もかかない
 if __name__== '__main__':
   app.run()
